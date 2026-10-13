@@ -1,0 +1,15 @@
+node_modules/
+dist/
+target/
+src-tauri/target/
+artifacts/*.png
+*.log
+.DS_Store
+
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+artifacts/install-test/
+artifacts/*.pid
+artifacts/enhancement-base/

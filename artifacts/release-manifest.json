@@ -1,0 +1,28 @@
+{
+  "Version": "0.1.0",
+  "Executable": {
+    "Path": "C:\\myProjects\\Zoomin\\target\\release\\zoomin.exe",
+    "SHA256": "697AF06D96C84CCE459ADFD30B37B811C8DD029815883917368080B79392EC55",
+    "Bytes": 4990464
+  },
+  "Installer": {
+    "Path": "C:\\myProjects\\Zoomin\\target\\release\\bundle\\nsis\\Zoomin'_0.1.0_x64-setup.exe",
+    "SHA256": "D5628465983AB73200499028FF03616B5CE5175004D6FB01D1F8C75C53AFD207",
+    "Bytes": 1634727
+  },
+  "InstalledExecutableMatches": true,
+  "InstallerLifecycle": {
+    "InstallExitCode": 0,
+    "ExecutableExists": true,
+    "RegistryExists": true,
+    "ShortcutTarget": "C:\\myProjects\\Zoomin\\artifacts\\install-test\\zoomin.exe",
+    "InstallTarget": "C:\\myProjects\\Zoomin\\artifacts\\install-test",
+    "ExecutableHash": "697AF06D96C84CCE459ADFD30B37B811C8DD029815883917368080B79392EC55",
+    "InstalledExecutableMatches": true,
+    "UiTestExitCode": 0,
+    "UninstallExitCode": 0,
+    "UninstallRegistryRemoved": true,
+    "UninstallExecutableRemoved": true,
+    "UninstallShortcutRemoved": true
+  }
+}

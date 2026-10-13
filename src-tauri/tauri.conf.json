@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Zoomin'",
+  "version": "0.1.0",
+  "identifier": "com.zoomin.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Zoomin' — See closer. See more.",
+        "width": 1080,
+        "height": 760,
+        "minWidth": 850,
+        "minHeight": 650,
+        "backgroundColor": "#0B0D13"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "shortDescription": "A native desktop magnifier and pixel inspector",
+    "category": "Utility",
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "installerHooks": "./installer-hooks.nsh"
+      }
+    },
+    "icon": [
+      "icons/icon.ico",
+      "icons/icon.png"
+    ]
+  }
+}

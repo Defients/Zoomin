@@ -1,0 +1,297 @@
+{
+  "checks": [
+    {
+      "expected": 255,
+      "pass": true,
+      "rendered": 255,
+      "test": "live red"
+    },
+    {
+      "expected": 65280,
+      "pass": true,
+      "rendered": 65280,
+      "test": "live green"
+    },
+    {
+      "expected": 16711680,
+      "pass": true,
+      "rendered": 16711680,
+      "test": "live blue"
+    },
+    {
+      "at2x": {
+        "bottom": 306,
+        "left": 215,
+        "right": 386,
+        "top": 195
+      },
+      "at8x": {
+        "bottom": 264,
+        "left": 279,
+        "right": 322,
+        "top": 236
+      },
+      "pass": true,
+      "test": "zoom source geometry"
+    },
+    {
+      "pass": true,
+      "test": "actual rendered scale",
+      "whitePixelsAt2x": 16,
+      "whitePixelsAt8x": 64
+    },
+    {
+      "backend": "DXGI / D3D11 region readback + native nearest-neighbor",
+      "error": null,
+      "pass": true,
+      "test": "DXGI nearest original pixels",
+      "whitePixels": 64
+    },
+    {
+      "pass": true,
+      "test": "grid backend active"
+    },
+    {
+      "pass": true,
+      "rendered": 5917500,
+      "test": "original-pixel grid boundary"
+    },
+    {
+      "pass": true,
+      "test": "dock geometry"
+    },
+    {
+      "pass": true,
+      "test": "hide"
+    },
+    {
+      "pass": true,
+      "test": "registered toggle hotkey"
+    },
+    {
+      "pass": true,
+      "test": "preset hotkey"
+    },
+    {
+      "pass": true,
+      "test": "modifier wheel"
+    },
+    {
+      "pass": false,
+      "test": "hold release with modifier released first"
+    },
+    {
+      "pass": true,
+      "test": "Escape dismissal"
+    },
+    {
+      "pass": false,
+      "result": {
+        "distance": 3283.586149319064,
+        "end": {
+          "x": 190.0,
+          "y": 180.0
+        },
+        "height": 417,
+        "kind": "region",
+        "start": {
+          "x": 3447.0,
+          "y": 597.0
+        },
+        "width": 3257
+      },
+      "test": "explicit region selection"
+    },
+    {
+      "pass": true,
+      "test": "measurement cancellation"
+    },
+    {
+      "pass": true,
+      "test": "conflict rollback"
+    },
+    {
+      "pass": true,
+      "test": "native click-through hit routing"
+    },
+    {
+      "pass": true,
+      "test": "interactive lens hit routing"
+    },
+    {
+      "after": {
+        "bottom": 460,
+        "left": 680,
+        "right": 1040,
+        "top": 220
+      },
+      "before": {
+        "bottom": 440,
+        "left": 650,
+        "right": 1010,
+        "top": 200
+      },
+      "pass": true,
+      "test": "native lens drag dispatch"
+    },
+    {
+      "after": {
+        "bottom": 490,
+        "left": 680,
+        "right": 1080,
+        "top": 220
+      },
+      "before": {
+        "bottom": 460,
+        "left": 680,
+        "right": 1040,
+        "top": 220
+      },
+      "pass": true,
+      "test": "native lens resize dispatch"
+    },
+    {
+      "pass": true,
+      "test": "clean shutdown"
+    }
+  ],
+  "environment": {
+    "arch": "x86_64",
+    "dpi": 96,
+    "monitor": {
+      "bottom": 1440,
+      "left": 0,
+      "right": 2560,
+      "top": 0
+    }
+  },
+  "passed": false,
+  "performance": {
+    "lastCpuUpdateMs": 7.8118,
+    "nativeUpdateHz": 32.65920769949728,
+    "note": "Short debug-build stationary-target sample, not compositor FPS or end-to-end latency"
+  },
+  "snapshot": {
+    "backend": "Windows Magnification API",
+    "cursor": {
+      "x": 3486.0,
+      "y": 689.0
+    },
+    "displayedZoom": 2.5,
+    "dpi": 96,
+    "error": null,
+    "holding": false,
+    "initialized": true,
+    "inspectorActive": false,
+    "lens": {
+      "bottom": 460,
+      "left": 680,
+      "right": 1040,
+      "top": 220
+    },
+    "measurement": {
+      "distance": 3283.586149319064,
+      "end": {
+        "x": 190.0,
+        "y": 180.0
+      },
+      "height": 417,
+      "kind": "region",
+      "start": {
+        "x": 3447.0,
+        "y": 597.0
+      },
+      "width": 3257
+    },
+    "measuring": null,
+    "monitor": {
+      "bottom": 1440,
+      "left": 0,
+      "right": 2560,
+      "top": 0
+    },
+    "pinned": true,
+    "sample": {
+      "b": 25,
+      "g": 26,
+      "hex": "#1E1A19",
+      "hsl": "hsl(12, 9%, 11%)",
+      "r": 30,
+      "rgb": "rgb(30, 26, 25)"
+    },
+    "settings": {
+      "accent": "#B58CFF",
+      "border": 2,
+      "clickThrough": true,
+      "crosshair": false,
+      "dockEdge": "top",
+      "dockSize": 220.0,
+      "grid": false,
+      "gridThreshold": 8.0,
+      "height": 240.0,
+      "offset": {
+        "x": 36.0,
+        "y": 36.0
+      },
+      "onboardingDone": false,
+      "pixelPerfect": false,
+      "placement": "pinned",
+      "presets": [
+        2.0,
+        4.0,
+        8.0
+      ],
+      "sensitivity": 0.5,
+      "shortcuts": [
+        {
+          "action": "toggle",
+          "chord": "Ctrl+Alt+Z"
+        },
+        {
+          "action": "hold",
+          "chord": "Ctrl+Alt+X"
+        },
+        {
+          "action": "preset1",
+          "chord": "Ctrl+Alt+1"
+        },
+        {
+          "action": "preset2",
+          "chord": "Ctrl+Alt+2"
+        },
+        {
+          "action": "preset3",
+          "chord": "Ctrl+Alt+3"
+        },
+        {
+          "action": "pin",
+          "chord": "Ctrl+Alt+P"
+        },
+        {
+          "action": "grid",
+          "chord": "Ctrl+Alt+G"
+        }
+      ],
+      "smoothingMs": 55.0,
+      "startup": false,
+      "streamProfile": "visible",
+      "tracking": "fixed",
+      "version": 1,
+      "width": 360.0,
+      "zoom": 2.5
+    },
+    "source": {
+      "bottom": 295,
+      "left": 232,
+      "right": 369,
+      "top": 206
+    },
+    "target": {
+      "x": 300.0,
+      "y": 250.0
+    },
+    "updateHz": 32.65920769949728,
+    "updateMs": 7.8118,
+    "visible": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "InstallExitCode": 0,
+  "ExecutableExists": true,
+  "RegistryExists": true,
+  "ShortcutTarget": "C:\\myProjects\\Zoomin\\artifacts\\install-test\\zoomin.exe",
+  "InstallTarget": "C:\\myProjects\\Zoomin\\artifacts\\install-test",
+  "ExecutableHash": "697AF06D96C84CCE459ADFD30B37B811C8DD029815883917368080B79392EC55",
+  "InstalledExecutableMatches": true,
+  "UiTestExitCode": 0,
+  "UninstallExitCode": 0,
+  "UninstallRegistryRemoved": true,
+  "UninstallExecutableRemoved": true,
+  "UninstallShortcutRemoved": true
+}
